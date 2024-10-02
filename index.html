@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: #384B70;
+        color: #FCFAEE;
+    }
+    .bg{
+        margin-left: 740px;
+        width: 410px;
+        height: 780px;
+        background-color: #507687;
+        border: 10px solid #FCFAEE;
+        border-radius: 10px;
+    }
+    .hd{
+        text-align: center;
+        border: 5px solid #FCFAEE;
+    }
+    .content{
+        padding: 10px;
+        
+    }
+    .red{
+        color: red;
+        padding-left: 5px;
+    }
+    input{
+        border-radius: 5px;
+    }
+    .user{
+        width: 380px;
+        min-height: 100px;
+        border: 5px solid ;
+        background-color: #384B70;
+        border-radius: 10px;
+        
+    }
+    .cook{
+        width: 380px;
+        min-height: 100px;
+        border: 5px solid ;
+        background-color: #384B70;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .text{
+        padding-left: 5px;
+    }
+    select {
+        width: 180px;
+        border: none;
+        height: 20px;
+        border-radius: 4px;
+    }
+    .bt{
+        padding-top: 20px;
+        padding-left: 70px;
+        
+    }
+    input{
+        width: 350px;
+    }
+    button{
+        width: 250px;
+        font-size: 20px;
+        color: #384B70;
+        background-color: #FCFAEE;
+        border-radius: 10px;
+    }
+</style>
+<body>
+    <div class="bg">
+        <div class="hd">
+            <h1>สั่งอาหาร</h1>
+        </div>
+
+        <div class="content">
+            <div class="user">
+                <p class="text">ชื่อสมาชิก</p>
+                <p class="red"><input>*</p>
+                <p class="text">หมายเลยโทรศัพท์</p>
+                <p class="red"><input>*</p>
+                <p class="text">E-mail</p>
+                <p class="red"><input>*</p>
+                <p class="text">วิธีการชำระเงิน</p>
+                <p class="red"><select><option>เก็บเงินปลายทาง</option><option>ชำระผ่านบัตรเครดิต</option></select>*</p>
+            </div>
+            <div class="cook">
+                <p class="text">ชื่อร้านค้า</p>
+                <p class="red"><select><option>ร้านค้าที่ 1</option><option>ร้านค้าที่ 2</option><option>ร้านค้าที่ 3</option></select>*</p>
+                <p class="text">รายการอาหาร</p>
+                <p class="red"><select><option>1.อาหาร</option><option>2.อาหาร</option><option>3.อาหาร</option></select>*</p>
+                <p class="text">จำนวนอาหารที่สั่ง</p>
+                <p class="red"><input>*</p>
+            </div>
+            <div class="bt">
+                <button><p class="text_bt">ยืนยันการสั่งซื้อ</p></button>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
